@@ -1,3 +1,5 @@
+
+
 /**
  * A class that implements a queue of objectrs by using a
  * chain of linked noked
@@ -78,11 +80,11 @@ public final class LinkedQueue<T> implements QueueInterface<T> {
             data = d;
         }
 
-        public Node getNext() {
+        public Node getNextNode() {
             return next;
         }
 
-        public void setNext(Node n) {
+        public void setNextNode(Node n) {
             next = n;
         }
     }//end Node
